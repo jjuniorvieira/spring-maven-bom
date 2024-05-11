@@ -1,6 +1,5 @@
 - POM: Project Object Model
 - BOM: Bill Of Materials
   - A BOM is a special kind of POM that is used to control the versions of a project’s dependencies and provide a central place to define and update those versions
-- dependency mediation
-  - A -> B -> C -> D 1.4  and  A -> E -> D 1.0
+- dependency mediation: The answer here is the “nearest definition”. This means that the version used will be the closest one to our project in the tree of dependencies. This is called dependency mediation
   - ![alt text](https://github.com/jjuniorvieira/spring-maven-bom/blob/main/spring-bom/src/main/resources/img.png)
