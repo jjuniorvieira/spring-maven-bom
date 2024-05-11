@@ -1,3 +1,6 @@
 - POM: Project Object Model
 - BOM: Bill Of Materials
   - A BOM is a special kind of POM that is used to control the versions of a project’s dependencies and provide a central place to define and update those versions
+- dependency mediation
+  - A -> B -> C -> D 1.4  and  A -> E -> D 1.0
+  - ![alt text](http://url/to/img.png)
